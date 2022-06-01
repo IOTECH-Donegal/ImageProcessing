@@ -9,7 +9,9 @@ debug = True
 from packages.templates import class_template
 
 # Instantiate and create an objects
-my_template = class_template.JORzTemplate("Instance1")
+my_template = class_template.JORzChildClass("Instance1")
+#my_broken = class_template.JORzAbstractClass()
+#my_broken.run()
 
 # Functions
 def func1():

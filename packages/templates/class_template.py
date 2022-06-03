@@ -36,6 +36,7 @@ class JORzChildClass(JORzAbstractClass):
     def __str__(self):
         return self.parameter1
     def __len__(self):
+        print("Manually set this to something meangingful")
         return 0
     def __del__(self):
         print(f"Deleted the object {(self.parameter1)}")

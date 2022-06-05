@@ -17,6 +17,24 @@ print("You can also use double quotes")
 print("You can use double quotes if you need a single quote in the string.")
 print("For example, if you want to print a word like can't \n")
 
+print("*** Print Formatting - Two Methods ***")
+print("Method 1")
+c = "chips"
+b = "beans"
+print("You can order fish and {0} with {1}.".format(c, b))
+print("Or you can order fish and {r} as {s}.".format(r="rice", s="sushi"))
+print("If you have a big floating point number like {r}".format(r=100/9876))
+print("you can use float formatting {r:1.5f}".format(r=100/9876))
+print("This is in the form VALUE:WIDTH.Precision")
+print("you can really mangle presentation using width {r:10.5f}".format(r=100/9876))
+print("Method 2")
+ver = 3.6
+print(f"From Python {ver}, you can also use f strings.\n")
+print()
+print("There are many other ways to print in particular formats, feel free to find some!")
+
+exit()
+
 print("*** Indexing ***")
 test_string = "Hello World!"
 position = 4
